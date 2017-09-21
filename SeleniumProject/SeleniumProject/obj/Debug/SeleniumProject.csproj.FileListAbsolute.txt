@@ -1,0 +1,11 @@
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\SeleniumProject.dll
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\SeleniumProject.pdb
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\nunit.framework.dll
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.dll
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.Support.dll
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\nunit.framework.xml
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.xml
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.Support.xml
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.csprojResolveAssemblyReference.cache
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.dll
+D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.pdb
