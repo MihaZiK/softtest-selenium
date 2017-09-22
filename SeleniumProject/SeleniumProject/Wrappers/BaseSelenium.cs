@@ -7,8 +7,7 @@ namespace TestsCardPayments.Wrappers
     {        
         public static void FillText(IWebElement element, string text)
         {
-            WebDriver.Wait.Until(ExpectedConditions.ElementToBeClickable(element)).Clear();
-            element.SendKeys(text);
+            WebDriver.Wait.Until(ExpectedConditions.ElementToBeClickable(element)).SendKeys(text);
         }
 
         public static void Click(IWebElement element)

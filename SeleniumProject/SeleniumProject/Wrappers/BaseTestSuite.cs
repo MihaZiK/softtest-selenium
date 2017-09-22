@@ -8,7 +8,7 @@ namespace TestsCardPayments.Wrappers
         public void SetupTest()
         {
             WebDriver.InitBrowser("Chrome");
-            WebDriver.LoadApplication("http://google.ru");
+            WebDriver.LoadApplication("http://localhost/litecart/public_html/admin/");
         }
         
         [TearDown]
