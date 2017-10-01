@@ -25,11 +25,14 @@ namespace SeleniumProject.Pages
         public bool CheckZonesOfCountriesOrder()
         {
             var countryIndex = GetIndexCountryName();
+            // Проходим по всему списку таблицы стран
             for (var i = 0; i < BaseSelenium.GetCountRowsInTable(); i++)
             {
                 var row = BaseSelenium.GetTableRowOfIndex(i);
+                // Переходим в редактирование гео зон
                 BaseSelenium.Click(BaseSelenium.GetElementOfIndexFromRow(row, countryIndex)
                     .FindElement(By.CssSelector("a")));
+                // Проверяем сортировку гео зон по стране
                 if (!Page.AdminEditGeoZone.CheckZonesOrder())
                     return false;
                 WebDriver.Driver.Navigate().Back();
