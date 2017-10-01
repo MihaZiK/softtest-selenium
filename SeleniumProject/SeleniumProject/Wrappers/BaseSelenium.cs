@@ -26,6 +26,22 @@ namespace SeleniumProject.Wrappers
             WebDriver.Driver.Navigate().Refresh();
         }
 
+        public static IWebElement GetTableRowOfIndex(int index)
+        {
+            return WebDriver.Driver.FindElements(By.CssSelector(".dataTable .row"))[index];
+        }
+        
+        public static int GetCountRowsInTable()
+        {
+            return WebDriver.Driver.FindElements(By.CssSelector(".dataTable .row")).Count;
+        }
+
+        public static IWebElement GetElementOfIndexFromRow(IWebElement row, int index)
+        {
+            return row.FindElements(By.CssSelector("td"))[index];
+        }
+        
+        
         // JS Exp
         public static void ScrollPage(int x, int y)
         {

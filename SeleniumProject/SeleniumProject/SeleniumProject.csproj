@@ -48,8 +48,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\CompareHelper.cs" />
+    <Compile Include="Pages\AdminEditCountry.cs" />
+    <Compile Include="Pages\AdminEditGeoZone.cs" />
+    <Compile Include="Pages\AdminGeoZones.cs" />
     <Compile Include="Pages\AdminLogin.cs" />
     <Compile Include="Pages\AdminMain.cs" />
+    <Compile Include="Pages\AdminCountries.cs" />
     <Compile Include="Pages\Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\AdminTests.cs" />

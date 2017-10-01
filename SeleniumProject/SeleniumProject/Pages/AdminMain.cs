@@ -1,27 +1,44 @@
-﻿using System;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using SeleniumProject.Wrappers;
 
-namespace SeleniumProject.Pages
+namespace SeleniumProject.Pages.Admin
 {
     public class AdminMain
     {
         [FindsBy(How = How.CssSelector, Using = "a[href*='logout.php']")]
         [CacheLookup]
         private IWebElement _logoutButton;
+        
+        [FindsBy(How = How.CssSelector, Using = "#app- a[href*=countries]")]
+        [CacheLookup]
+        private IWebElement _countriesButton;
+        
+        [FindsBy(How = How.CssSelector, Using = "#app- a[href*=geo_zones]")]
+        [CacheLookup]
+        private IWebElement _geoZonesButton;
 
         public void ClickLogout()
         {
             BaseSelenium.Click(_logoutButton);
         }
 
+        public void ClickCountries()
+        {
+            BaseSelenium.Click(_countriesButton);
+        }
+        
+        public void ClickGeoZones()
+        {
+            BaseSelenium.Click(_geoZonesButton);
+        }
+        
         public bool MenuChecker()
         {
             // Идем по списку всех элементов меню
             for (var i = 0; i < WebDriver.Driver.FindElements(By.Id("app-")).Count; i++)
             {
-                IWebElement menuItem = WebDriver.Driver.FindElements(By.Id("app-"))[i];    
+                var menuItem = WebDriver.Driver.FindElements(By.Id("app-"))[i];    
                 BaseSelenium.Click(menuItem);
                 
                 // Если есть подменю, то проходим и по нему

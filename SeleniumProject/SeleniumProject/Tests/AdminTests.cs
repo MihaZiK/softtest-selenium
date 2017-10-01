@@ -27,5 +27,23 @@ namespace SeleniumProject.Tests
             Page.AdminLogin.loginAs("admin", "admin");
             Assert.IsTrue(Page.AdminMain.MenuChecker());
         }
+        
+        // Проверка сортировки стран и зон со страницы Countries
+        [Test]
+        public void TestZonesAndCountiesOrder()
+        {
+            Page.AdminLogin.loginAs("admin", "admin");
+            Page.AdminMain.ClickCountries();
+            Assert.IsTrue(Page.AdminCountries.CheckZonesAndCountriesOrder());
+        }
+        
+        // Проверка сортировки зон со страницы GeoZones
+        [Test]
+        public void TestZonesOfCountriesOrder()
+        {
+            Page.AdminLogin.loginAs("admin", "admin");
+            Page.AdminMain.ClickGeoZones();
+            Assert.IsTrue(Page.AdminGeoZones.CheckZonesOfCountriesOrder());
+        }
     }
 }
