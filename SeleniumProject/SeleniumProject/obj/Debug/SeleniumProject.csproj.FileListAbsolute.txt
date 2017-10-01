@@ -9,3 +9,14 @@ D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.Sup
 D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.csprojResolveAssemblyReference.cache
 D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.dll
 D:\Git\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.pdb
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\SeleniumProject.dll
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\SeleniumProject.pdb
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\nunit.framework.dll
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.dll
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.Support.dll
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\nunit.framework.xml
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.xml
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.Support.xml
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.csprojResolveAssemblyReference.cache
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.dll
+D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.pdb

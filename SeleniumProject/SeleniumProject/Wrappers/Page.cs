@@ -1,21 +1,14 @@
-﻿namespace TestsCardPayments.Wrappers
-{
-    using OpenQA.Selenium.Support.PageObjects;
-    
-    using SeleniumProject.Pages;
+﻿using OpenQA.Selenium.Support.PageObjects;
+using SeleniumProject.Pages;
 
+namespace SeleniumProject.Wrappers
+{
     public static class Page
     {
-        public static AdminLogin AdminLogin
-        {
-            get { return GetPage<AdminLogin>(); }
-        }
-        
-        public static AdminMain AdminMain
-        {
-            get { return GetPage<AdminMain>(); }
-        }
-        
+        public static AdminLogin AdminLogin => GetPage<AdminLogin>();
+
+        public static AdminMain AdminMain => GetPage<AdminMain>();
+
         private static T GetPage<T>() where T : new()
         {
             var page = new T();

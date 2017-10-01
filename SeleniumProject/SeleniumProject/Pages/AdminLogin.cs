@@ -1,9 +1,10 @@
-﻿namespace SeleniumProject.Pages
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.PageObjects;
+
+using SeleniumProject.Wrappers;
+
+namespace SeleniumProject.Pages
 {
-    using OpenQA.Selenium;
-    using OpenQA.Selenium.Support.PageObjects;
-    using TestsCardPayments.Wrappers;
-    
     public class AdminLogin
     {
         [FindsBy(How = How.Name, Using = "username")]

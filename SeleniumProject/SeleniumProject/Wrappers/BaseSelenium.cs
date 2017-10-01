@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace TestsCardPayments.Wrappers
+namespace SeleniumProject.Wrappers
 {
     public class BaseSelenium
     {        
@@ -25,7 +25,7 @@ namespace TestsCardPayments.Wrappers
         {
             WebDriver.Driver.Navigate().Refresh();
         }
-        
+
         // JS Exp
         public static void ScrollPage(int x, int y)
         {

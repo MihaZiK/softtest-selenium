@@ -1,14 +1,16 @@
 ﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Internal;
 
-namespace TestsCardPayments.Wrappers
+namespace SeleniumProject.Wrappers
 {
     public class BaseTestSuite
-    {
+    {        
         [SetUp]
         public void SetupTest()
         {
-            WebDriver.InitBrowser("Chrome");
-            WebDriver.LoadApplication("http://localhost/litecart/public_html/admin/");
+            WebDriver.InitBrowser("Firefox");
+            WebDriver.LoadApplication("http://localhost/litecart/admin/");
         }
         
         [TearDown]

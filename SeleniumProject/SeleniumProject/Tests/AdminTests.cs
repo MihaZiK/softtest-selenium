@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
-using TestsCardPayments.Wrappers;
+using SeleniumProject.Wrappers;
 
-namespace SeleniumProject
+namespace SeleniumProject.Tests
 {
     [TestFixture]
     public class Tests : BaseTestSuite
@@ -12,6 +12,13 @@ namespace SeleniumProject
         {
             Page.AdminLogin.loginAs("admin", "admin");
             Assert.IsTrue(WebDriver.Driver.FindElement(By.CssSelector("a[href*='logout.php']")).Displayed);
+        }
+        
+        [Test]
+        public void TestMenuClicker()
+        {
+            Page.AdminLogin.loginAs("admin", "admin");
+            Assert.IsTrue(Page.AdminMain.MenuChecker());
         }
     }
 }

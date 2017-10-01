@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using TestsCardPayments.Wrappers;
+using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Pages
 {
@@ -13,6 +13,17 @@ namespace SeleniumProject.Pages
         public void ClickLogout()
         {
             BaseSelenium.Click(_logoutButton);
+        }
+
+        public bool MenuChecker()
+        {
+            for (var i = 0; i < WebDriver.Driver.FindElements(By.Id("app-")).Count; i++)
+            {
+                BaseSelenium.Click(WebDriver.Driver.FindElements(By.Id("app-"))[i]);
+                if (!BaseAsserts.IsElementsPresent(By.CssSelector("h1")))
+                    return false;
+            }
+            return true;
         }
     }
 }

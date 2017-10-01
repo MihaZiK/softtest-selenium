@@ -5,7 +5,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 
-namespace TestsCardPayments.Wrappers
+namespace SeleniumProject.Wrappers
 {
     public class WebDriver
     {
