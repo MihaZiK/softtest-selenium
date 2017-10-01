@@ -8,6 +8,8 @@ namespace SeleniumProject.Wrappers
         public static AdminLogin AdminLogin => GetPage<AdminLogin>();
 
         public static AdminMain AdminMain => GetPage<AdminMain>();
+        
+        public static Main Main => GetPage<Main>();
 
         private static T GetPage<T>() where T : new()
         {

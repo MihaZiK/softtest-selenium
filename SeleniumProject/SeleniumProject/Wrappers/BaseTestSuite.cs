@@ -10,7 +10,6 @@ namespace SeleniumProject.Wrappers
         public void SetupTest()
         {
             WebDriver.InitBrowser("Firefox");
-            WebDriver.LoadApplication("http://localhost/litecart/admin/");
         }
         
         [TearDown]

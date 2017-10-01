@@ -7,6 +7,13 @@ namespace SeleniumProject.Tests
     [TestFixture]
     public class Tests : BaseTestSuite
     {
+        [SetUp]
+        public new void SetupTest()
+        {
+            base.SetupTest();
+            WebDriver.LoadApplication("http://localhost/litecart/admin");
+        }
+        
         [Test]
         public void TestLoginAdmin()
         {
