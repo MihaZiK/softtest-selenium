@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
@@ -33,18 +32,6 @@ namespace SeleniumProject.Pages
                 {"regular_price", GetProductRegPriceData(_campaignsProducts[index])},
                 {"campaign_price", GetProductCampPriceData(_campaignsProducts[index])}
             };
-            foreach (var v in product)
-            {
-                if (v.Value.GetType() == typeof(Dictionary<string, string>))
-                {
-                    foreach (var vv in (Dictionary<string, string>) v.Value)
-                    {
-                        Console.WriteLine(vv.Key + " : " + vv.Value);
-                    }
-                }
-                else Console.WriteLine(v.Key +" : "+ v.Value);
-            }
-            
             return product;
         }
 

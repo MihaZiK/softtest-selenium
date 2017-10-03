@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Shalakin.MA\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_SeleniumProject.-1363892905.00" t="ExcludeRecursive" />
+    <e p="D:\Git\softtest-selenium\SeleniumProject" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SeleniumProject" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="Check.cs" t="Include" />
+          <e p="Compare.cs" t="Include" />
+          <e p="Parse.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Pages" t="Include">
+          <e p="AdminCountries.cs" t="Include" />
+          <e p="AdminEditCountry.cs" t="Include" />
+          <e p="AdminEditGeoZone.cs" t="Include" />
+          <e p="AdminGeoZones.cs" t="Include" />
+          <e p="AdminLogin.cs" t="Include" />
+          <e p="AdminMain.cs" t="Include" />
+          <e p="Main.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SeleniumProject.csproj" t="IncludeRecursive" />
+        <e p="Tests" t="Include">
+          <e p="AdminTests.cs" t="Include" />
+          <e p="ProductTests.cs" t="Include" />
+        </e>
+        <e p="Wrappers" t="Include">
+          <e p="BaseAsserts.cs" t="Include" />
+          <e p="BaseSelenium.cs" t="Include" />
+          <e p="BaseTestSuite.cs" t="Include" />
+          <e p="Page.cs" t="Include" />
+          <e p="WebDriver.cs" t="Include" />
+        </e>
+      </e>
+      <e p="SeleniumProject.sln" t="IncludeFlat" />
+    </e>
+  </component>
   <component name="RiderRiderContentModelStore">
     <excludedPaths />
   </component>

@@ -24,7 +24,7 @@ namespace SeleniumProject.Pages
             {
                 {"name", _title.Text},
                 {"regular_price", GetRegularPriceData()},
-                {"campaing-price", GetCampaignPriceData()}
+                {"campaign_price", GetCampaignPriceData()}
             };
             return product;
         }
