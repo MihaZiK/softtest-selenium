@@ -15,13 +15,13 @@ namespace SeleniumProject.Helpers
             switch (browserType)
             {
                 case "FirefoxDriver":
-                    if (fontWeight == "900") return true;
+                    if (fontWeight == "900" || fontWeight == "700") return true;
                     return false;
                 case "ChromeDriver":
                     if (fontWeight == "bold") return true;
                     return false;
                 case "InternetExplorerDriver":
-                    if (fontWeight == "900") return true;
+                    if (fontWeight == "900" || fontWeight == "700") return true;
                     return false;
             }
             return false;

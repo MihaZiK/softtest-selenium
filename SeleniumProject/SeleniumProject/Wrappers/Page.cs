@@ -6,21 +6,45 @@ namespace SeleniumProject.Wrappers
 {
     public static class Page
     {
-        public static AdminLogin AdminLogin => GetPage<AdminLogin>();
+        public static AdminLogin AdminLogin
+        {
+            get { return GetPage<AdminLogin>(); }
+        }
 
-        public static AdminMain AdminMain => GetPage<AdminMain>();
+        public static AdminMain AdminMain
+        {
+            get { return GetPage<AdminMain>(); }
+        }
 
-        public static Main Main => GetPage<Main>();
+        public static Main Main
+        {
+            get { return GetPage<Main>(); }
+        }
 
-        public static AdminEditCountry AdminEditCountry => GetPage<AdminEditCountry>();
+        public static AdminEditCountry AdminEditCountry
+        {
+            get { return GetPage<AdminEditCountry>(); }
+        }
 
-        public static AdminGeoZones AdminGeoZones => GetPage<AdminGeoZones>();
+        public static AdminGeoZones AdminGeoZones
+        {
+            get { return GetPage<AdminGeoZones>(); }
+        }
 
-        public static AdminCountries AdminCountries => GetPage<AdminCountries>();
+        public static AdminCountries AdminCountries
+        {
+            get { return GetPage<AdminCountries>(); }
+        }
 
-        public static AdminEditGeoZone AdminEditGeoZone => GetPage<AdminEditGeoZone>();
+        public static AdminEditGeoZone AdminEditGeoZone
+        {
+            get { return GetPage<AdminEditGeoZone>(); }
+        }
 
-        public static Product Product => GetPage<Product>();
+        public static Product Product
+        {
+            get { return GetPage<Product>(); }
+        }
 
         private static T GetPage<T>() where T : new()
         {
