@@ -20,3 +20,14 @@ D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\bin\Debug\
 D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.csprojResolveAssemblyReference.cache
 D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.dll
 D:\Selenium Project\softtest-selenium\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.pdb
+F:\SeleniumProject\SeleniumProject\SeleniumProject\bin\Debug\SeleniumProject.dll
+F:\SeleniumProject\SeleniumProject\SeleniumProject\bin\Debug\SeleniumProject.pdb
+F:\SeleniumProject\SeleniumProject\SeleniumProject\bin\Debug\nunit.framework.dll
+F:\SeleniumProject\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.dll
+F:\SeleniumProject\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.Support.dll
+F:\SeleniumProject\SeleniumProject\SeleniumProject\bin\Debug\nunit.framework.xml
+F:\SeleniumProject\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.xml
+F:\SeleniumProject\SeleniumProject\SeleniumProject\bin\Debug\WebDriver.Support.xml
+F:\SeleniumProject\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.csprojResolveAssemblyReference.cache
+F:\SeleniumProject\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.dll
+F:\SeleniumProject\SeleniumProject\SeleniumProject\obj\Debug\SeleniumProject.pdb

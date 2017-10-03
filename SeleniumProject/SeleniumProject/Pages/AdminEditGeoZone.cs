@@ -37,7 +37,7 @@ namespace SeleniumProject.Pages
                 zonesList.Add(BaseSelenium.GetElementOfIndexFromRow(_rowsList[i], indexZone)
                     .FindElement(By.CssSelector("option[selected='selected']")).Text);
             }
-            return CompareHelper.CompareLists(zonesList);
+            return Compare.CompareLists(zonesList);
         }
     }
 }

@@ -20,6 +20,8 @@ namespace SeleniumProject.Wrappers
         
         public static AdminEditGeoZone AdminEditGeoZone => GetPage<AdminEditGeoZone>();
         
+        public static Product Product => GetPage<Product>();
+        
         private static T GetPage<T>() where T : new()
         {
             var page = new T();

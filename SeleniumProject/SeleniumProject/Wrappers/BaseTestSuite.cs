@@ -1,6 +1,4 @@
 ﻿using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Internal;
 
 namespace SeleniumProject.Wrappers
 {
@@ -9,7 +7,7 @@ namespace SeleniumProject.Wrappers
         [SetUp]
         public void SetupTest()
         {
-            WebDriver.InitBrowser("Firefox");
+            WebDriver.InitBrowser("Chrome");
         }
         
         [TearDown]

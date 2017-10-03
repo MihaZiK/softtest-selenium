@@ -32,7 +32,7 @@ namespace SeleniumProject.Pages
             var zonesList = _rowsList.Select(row => row.FindElements(By.CssSelector("td")))
                 .Select(strList => strList[nameIndex].Text).ToList();
 
-            return CompareHelper.CompareLists(zonesList);
+            return Compare.CompareLists(zonesList);
         }
     }
 }

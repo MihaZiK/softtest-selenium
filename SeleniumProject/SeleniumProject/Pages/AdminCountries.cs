@@ -44,7 +44,7 @@ namespace SeleniumProject.Pages
             var countriesList = _rowsList.Select(row => row.FindElements(By.CssSelector("td")))
                 .Select(strList => strList[nameIndex].Text).ToList();
 
-            return CompareHelper.CompareLists(countriesList);
+            return Compare.CompareLists(countriesList);
         }
 
         public bool CheckZonesAndCountriesOrder()
@@ -70,7 +70,7 @@ namespace SeleniumProject.Pages
                 }
                 WebDriver.Driver.Navigate().Back();
             }
-            return CompareHelper.CompareLists(countriesList);
+            return Compare.CompareLists(countriesList);
         }
     }
 }

@@ -51,5 +51,12 @@ namespace SeleniumProject.Wrappers
                 Driver.Close();
                 Driver.Quit();
         }
+
+        public static string GetBrowserType()
+        {
+            var type = Driver.GetType().ToString();
+            return type.Substring(type.LastIndexOf(".", StringComparison.Ordinal)+1
+                , type.Length - type.LastIndexOf(".", StringComparison.Ordinal)-1);
+        }
     }
 }
