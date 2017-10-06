@@ -16,9 +16,25 @@ namespace SeleniumProject.Pages
         [CacheLookup]
         private IList<IWebElement> _campaignsProducts;
         
+        [FindsBy(How = How.CssSelector, Using = "[name=email]")] 
+        [CacheLookup]
+        private IWebElement _email;
+        
+        [FindsBy(How = How.CssSelector, Using = "[name=password]")] 
+        [CacheLookup]
+        private IWebElement _password;
+        
         [FindsBy(How = How.CssSelector, Using = ".content a[href*=create_account]")] 
         [CacheLookup]
         private IWebElement _registration;
+        
+        [FindsBy(How = How.CssSelector, Using = "[href*=logout]")] 
+        [CacheLookup]
+        private IWebElement _logout;
+        
+        [FindsBy(How = How.CssSelector, Using = "[name=login]")] 
+        [CacheLookup]
+        private IWebElement _login;
 
         public bool StickersCountChecker()
         {
@@ -33,6 +49,33 @@ namespace SeleniumProject.Pages
         public void ClickRegistration()
         {
             BaseSelenium.Click(_registration);
+        }
+
+        public void ClickLogout()
+        {
+            BaseSelenium.Click(_logout);
+        }
+        
+        public void FillEmail(string email)
+        {
+            BaseSelenium.FillText(_email, email);
+        }
+        
+        public void FillPassword(string password)
+        {
+            BaseSelenium.FillText(_password, password);
+        }
+        
+        public void ClickLogin()
+        {
+            BaseSelenium.Click(_login);
+        }
+
+        public void Login(string email, string password)
+        {
+            FillEmail(email);
+            FillPassword(password);
+            ClickLogin();
         }
 
         public Dictionary<string, object> GetCampaignProduct(int index)

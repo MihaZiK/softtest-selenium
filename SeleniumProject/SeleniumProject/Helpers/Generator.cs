@@ -6,12 +6,12 @@ namespace SeleniumProject.Helpers
     {
         public static string EmailGenerator()
         {
-            return "TestEmail" + new Random(10000).Next()+"@test.com";
+            return "TestEmail" + new Random().Next(10000, 99999)+"@test.com";
         }
         
         public static string PhoneGenerator()
         {
-            return "+7923424" + new Random(100000).Next();
+            return "+7923424" + new Random().Next(100000, 999999);
         }
     }
 }

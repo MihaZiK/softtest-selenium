@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.Extensions;
 using OpenQA.Selenium.Support.PageObjects;
+using OpenQA.Selenium.Support.UI;
 using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Pages
@@ -24,7 +26,7 @@ namespace SeleniumProject.Pages
         [CacheLookup]
         private IWebElement _postcode;
         
-        [FindsBy(How = How.CssSelector, Using = ".content [name=zone_code]")]
+        [FindsBy(How = How.CssSelector, Using = "select[name=zone_code]")]
         [CacheLookup]
         private IWebElement _zone;
         
@@ -89,18 +91,17 @@ namespace SeleniumProject.Pages
 
         public void SelectZone(string zone)
         {
-            BaseSelenium.SelectByText(_zone, zone);
+            BaseSelenium.SelectByTextClicks(_zone, zone);
         }
         
-        public void FillEmail()
+        public void FillEmail(string email)
         {
-            Console.WriteLine(Helpers.Generator.EmailGenerator());
-            BaseSelenium.FillText(_email, Helpers.Generator.EmailGenerator());
+            BaseSelenium.FillText(_email, email);
         }
 
-        public void FillPhone()
+        public void FillPhone(string phone)
         {
-            BaseSelenium.FillText(_phone, Helpers.Generator.PhoneGenerator());
+            BaseSelenium.FillText(_phone, phone);
         }
 
         public void FillPassword(string password)
@@ -118,19 +119,28 @@ namespace SeleniumProject.Pages
             BaseSelenium.Click(_create);
         }
 
-        public void Registration()
+        public void Registration(string firstname, 
+            string lastname, 
+            string adress1, 
+            string postcode, 
+            string city, 
+            string country, 
+            string zone,
+            string email, 
+            string phone,
+            string password)
         {
-            FillFirstname("Tester");
-            FillLastname("Tester");
-            //FillAdress1("Test Street");
-            FillPostcode("63212");
-            FillCity("TestCity");
-            SelectCountry("United States");
-            SelectZone("Colorado");
-            FillEmail();
-            FillPhone();
-            FillPassword("123QWEasd");
-            FillConfirmPassword("123QWEasd");
+            FillFirstname(firstname);
+            FillLastname(lastname);
+            FillAdress1(adress1);
+            FillPostcode(postcode);
+            FillCity(city);
+            SelectCountry(country);
+            SelectZone(zone);
+            FillEmail(email);
+            FillPhone(phone);
+            FillPassword(password);
+            FillConfirmPassword(password);
             ClickCreate();
         }
         
