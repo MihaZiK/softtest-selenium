@@ -5,7 +5,7 @@ using SeleniumProject.Wrappers;
 namespace SeleniumProject.Tests
 {
     [TestFixture]
-    public class EqualProductFirefox : BaseTestSuite
+    public class EqualProductFirefox
     {
         [SetUp]
         public void SetupTest()

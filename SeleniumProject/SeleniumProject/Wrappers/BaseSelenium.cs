@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using System;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
 namespace SeleniumProject.Wrappers
@@ -6,7 +7,7 @@ namespace SeleniumProject.Wrappers
     public class BaseSelenium
     {        
         public static void FillText(IWebElement element, string text)
-        {
+        {               
             WebDriver.Wait.Until(ExpectedConditions.ElementToBeClickable(element)).SendKeys(text);
         }
 
@@ -19,6 +20,11 @@ namespace SeleniumProject.Wrappers
         {
             var list = new SelectElement(element);
             list.SelectByValue(value);
+        }
+
+        public static void SelectByText(IWebElement element, string text)
+        {
+            new SelectElement(element).SelectByText(text);
         }
 
         public static void RefreshPage()

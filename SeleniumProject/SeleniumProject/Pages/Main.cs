@@ -8,11 +8,17 @@ namespace SeleniumProject.Pages
 {
     public class Main
     {
-        [FindsBy(How = How.CssSelector, Using = ".image-wrapper")] [CacheLookup]
+        [FindsBy(How = How.CssSelector, Using = ".image-wrapper")] 
+        [CacheLookup]
         private IList<IWebElement> _productList;
 
-        [FindsBy(How = How.CssSelector, Using = "#box-campaigns li:first-child")] [CacheLookup]
+        [FindsBy(How = How.CssSelector, Using = "#box-campaigns li:first-child")] 
+        [CacheLookup]
         private IList<IWebElement> _campaignsProducts;
+        
+        [FindsBy(How = How.CssSelector, Using = ".content a[href*=create_account]")] 
+        [CacheLookup]
+        private IWebElement _registration;
 
         public bool StickersCountChecker()
         {
@@ -22,6 +28,11 @@ namespace SeleniumProject.Pages
         public void ClickCampaignProductByIndex(int index)
         {
             BaseSelenium.Click(_campaignsProducts[index]);
+        }
+
+        public void ClickRegistration()
+        {
+            BaseSelenium.Click(_registration);
         }
 
         public Dictionary<string, object> GetCampaignProduct(int index)

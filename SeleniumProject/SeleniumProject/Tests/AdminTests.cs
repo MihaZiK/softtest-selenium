@@ -8,9 +8,8 @@ namespace SeleniumProject.Tests
     public class Tests : BaseTestSuite
     {
         [SetUp]
-        public void SetupTest()
+        public new void SetupTest()
         {
-            WebDriver.InitBrowser("Chrome");
             WebDriver.LoadApplication("http://localhost/litecart/admin");
         }
         

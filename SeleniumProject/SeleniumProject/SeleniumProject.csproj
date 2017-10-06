@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Helpers\Check.cs" />
     <Compile Include="Helpers\Compare.cs" />
+    <Compile Include="Helpers\Generator.cs" />
     <Compile Include="Helpers\Parse.cs" />
     <Compile Include="Pages\AdminEditCountry.cs" />
     <Compile Include="Pages\AdminEditGeoZone.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="Pages\AdminLogin.cs" />
     <Compile Include="Pages\AdminMain.cs" />
     <Compile Include="Pages\AdminCountries.cs" />
+    <Compile Include="Pages\CreateAccount.cs" />
     <Compile Include="Pages\Main.cs" />
     <Compile Include="Pages\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,6 +67,7 @@
     <Compile Include="Tests\EqualProductFirefox.cs" />
     <Compile Include="Tests\EqualProductIE.cs" />
     <Compile Include="Tests\ProductTests.cs" />
+    <Compile Include="Tests\UsersTests.cs" />
     <Compile Include="Wrappers\BaseAsserts.cs" />
     <Compile Include="Wrappers\BaseSelenium.cs" />
     <Compile Include="Wrappers\BaseTestSuite.cs" />

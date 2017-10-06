@@ -1,10 +1,12 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
+using NUnit.Framework.Internal;
 using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Tests
 {
     [TestFixture]
-    public class ProductTests : BaseTestSuite
+    public class Users : BaseTestSuite
     {
         [SetUp]
         public new void SetupTest()
@@ -13,10 +15,11 @@ namespace SeleniumProject.Tests
         }
         
         [Test]
-        public void TestProductStickersCount()
+        public void createAccount()
         {
-            Assert.IsTrue(Page.Main.StickersCountChecker());
+            Page.Main.ClickRegistration();
+            Page.CreateAccount.Registration();
+            Console.ReadLine();
         }
     }
 }
-

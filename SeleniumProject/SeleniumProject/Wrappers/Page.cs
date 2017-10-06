@@ -45,6 +45,11 @@ namespace SeleniumProject.Wrappers
         {
             get { return GetPage<Product>(); }
         }
+        
+        public static CreateAccount CreateAccount
+        {
+            get { return GetPage<CreateAccount>(); }
+        }
 
         private static T GetPage<T>() where T : new()
         {
