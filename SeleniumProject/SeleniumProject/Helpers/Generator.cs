@@ -13,5 +13,10 @@ namespace SeleniumProject.Helpers
         {
             return "+7923424" + new Random().Next(100000, 999999);
         }
+
+        public static string ProductCodeGenerator()
+        {
+            return "p" + new Random().Next(1000, 9999);
+        }
     }
 }

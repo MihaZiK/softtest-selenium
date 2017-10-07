@@ -50,7 +50,17 @@ namespace SeleniumProject.Wrappers
         {
             get { return GetPage<CreateAccount>(); }
         }
-
+        
+        public static AdminCatalog AdminCatalog
+        {
+            get { return GetPage<AdminCatalog>(); }
+        }
+        
+        public static AddNewProduct AddNewProduct
+        {
+            get { return GetPage<AddNewProduct>(); }
+        }
+        
         private static T GetPage<T>() where T : new()
         {
             var page = new T();

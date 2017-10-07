@@ -17,6 +17,10 @@ namespace SeleniumProject.Pages.Admin
         [FindsBy(How = How.CssSelector, Using = "#app- a[href*=geo_zones]")]
         [CacheLookup]
         private IWebElement _geoZonesButton;
+        
+        [FindsBy(How = How.CssSelector, Using = "#app- > a[href*=catalog]")] 
+        [CacheLookup]
+        private IWebElement _catalogButton;
 
         public void ClickLogout()
         {
@@ -31,6 +35,11 @@ namespace SeleniumProject.Pages.Admin
         public void ClickGeoZones()
         {
             BaseSelenium.Click(_geoZonesButton);
+        }
+        
+        public void ClickCatalog()
+        {
+            BaseSelenium.Click(_catalogButton);
         }
         
         public bool MenuChecker()

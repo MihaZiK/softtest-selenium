@@ -35,6 +35,7 @@ namespace SeleniumProject.Pages
         [FindsBy(How = How.CssSelector, Using = "[name=login]")] 
         [CacheLookup]
         private IWebElement _login;
+        
 
         public bool StickersCountChecker()
         {

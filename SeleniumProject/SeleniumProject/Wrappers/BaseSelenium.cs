@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection.Emit;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
@@ -9,7 +8,9 @@ namespace SeleniumProject.Wrappers
     public class BaseSelenium
     {        
         public static void FillText(IWebElement element, string text)
-        {               
+        {        
+            if(element.GetAttribute("type") != "date")
+                WebDriver.Wait.Until(ExpectedConditions.ElementToBeClickable(element)).Clear();
             WebDriver.Wait.Until(ExpectedConditions.ElementToBeClickable(element)).SendKeys(text);
         }
 
@@ -38,16 +39,6 @@ namespace SeleniumProject.Wrappers
             {
                 if (option.Text == text) Click(option);
             }
-        }
-        
-        public static void SelectByValue(IWebElement element, string value)
-        {
-            const string str = "document.querySelector('select[name=zone_code]')[5].selected=true";
-            string s = "arguments[0].selectedIndex=5; arguments[0].dispatchEvent(new Event('change'));";
-            string s1 = "document.querySelector('select[name=zone_code]').selectedIndex=5; " +
-                        "document.querySelector('select[name=zone_code]').dispatchEvent(new Event('change'));";
-            Console.WriteLine(s);
-            ((IJavaScriptExecutor)WebDriver.Driver).ExecuteScript(s1);
         }
 
         public static void RefreshPage()

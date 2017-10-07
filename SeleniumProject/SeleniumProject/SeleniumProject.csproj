@@ -52,12 +52,14 @@
     <Compile Include="Helpers\Compare.cs" />
     <Compile Include="Helpers\Generator.cs" />
     <Compile Include="Helpers\Parse.cs" />
+    <Compile Include="Pages\AddNewProduct .cs" />
     <Compile Include="Pages\AdminEditCountry.cs" />
     <Compile Include="Pages\AdminEditGeoZone.cs" />
     <Compile Include="Pages\AdminGeoZones.cs" />
     <Compile Include="Pages\AdminLogin.cs" />
     <Compile Include="Pages\AdminMain.cs" />
     <Compile Include="Pages\AdminCountries.cs" />
+    <Compile Include="Pages\AdminCatalog.cs" />
     <Compile Include="Pages\CreateAccount.cs" />
     <Compile Include="Pages\Main.cs" />
     <Compile Include="Pages\Product.cs" />
@@ -66,6 +68,7 @@
     <Compile Include="Tests\EqualProductChrome.cs" />
     <Compile Include="Tests\EqualProductFirefox.cs" />
     <Compile Include="Tests\EqualProductIE.cs" />
+    <Compile Include="Tests\ProductAdminTests.cs" />
     <Compile Include="Tests\ProductTests.cs" />
     <Compile Include="Tests\UsersTests.cs" />
     <Compile Include="Wrappers\BaseAsserts.cs" />
@@ -76,6 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
