@@ -12,9 +12,13 @@ namespace SeleniumProject.Pages
         [CacheLookup]
         private IList<IWebElement> _productList;
 
-        [FindsBy(How = How.CssSelector, Using = "#box-campaigns li:first-child")] 
+        [FindsBy(How = How.CssSelector, Using = "#box-campaigns li")] 
         [CacheLookup]
         private IList<IWebElement> _campaignsProducts;
+        
+        [FindsBy(How = How.CssSelector, Using = "#box-most-popular li")] 
+        [CacheLookup]
+        private IList<IWebElement> _mostPopularProducts;
         
         [FindsBy(How = How.CssSelector, Using = "[name=email]")] 
         [CacheLookup]
@@ -45,6 +49,11 @@ namespace SeleniumProject.Pages
         public void ClickCampaignProductByIndex(int index)
         {
             BaseSelenium.Click(_campaignsProducts[index]);
+        }
+
+        public void ClickMostPopularProductByIndex(int index)
+        {
+            BaseSelenium.Click(_mostPopularProducts[index]);
         }
 
         public void ClickRegistration()

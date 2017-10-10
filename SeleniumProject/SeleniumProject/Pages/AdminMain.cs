@@ -57,11 +57,11 @@ namespace SeleniumProject.Pages.Admin
                     {
                         menuItem = WebDriver.Driver.FindElements(By.CssSelector("ul.docs li"))[j]; 
                         BaseSelenium.Click(menuItem);
-                        if (!BaseAsserts.IsElementsPresent(By.CssSelector("h1")))
+                        if (!BaseAsserts.IsElementPresent(By.CssSelector("h1")))
                             return false;
                     }
                 }
-                if (!BaseAsserts.IsElementsPresent(By.CssSelector("h1")))
+                if (!BaseAsserts.IsElementPresent(By.CssSelector("h1")))
                     return false;
             }
             return true;

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Tests
@@ -17,7 +15,6 @@ namespace SeleniumProject.Tests
         [Test]
         public void TestAddProduct()
         {
-            
             Page.AdminLogin.loginAs("admin","admin");
             Page.AdminMain.ClickCatalog();
             // Считываем кол-во строк в таблице перед добавлением товара

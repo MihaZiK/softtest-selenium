@@ -8,7 +8,7 @@ namespace SeleniumProject.Wrappers
         [SetUp]
         public void SetupTest()
         {
-            WebDriver.InitBrowser("Chrome");
+            WebDriver.InitBrowser("Firefox");
         }
         
 

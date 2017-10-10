@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Tests
@@ -16,6 +17,20 @@ namespace SeleniumProject.Tests
         public void TestProductStickersCount()
         {
             Assert.IsTrue(Page.Main.StickersCountChecker());
+        }
+
+        [Test]
+        public void TestProductsInCart()
+        {
+            Page.Main.ClickMostPopularProductByIndex(0);
+            Page.Product.ClickAddToCart();
+            BaseSelenium.BackToPage();
+            Page.Main.ClickMostPopularProductByIndex(0);
+            Page.Product.ClickAddToCart();
+            BaseSelenium.BackToPage();
+            Page.Main.ClickMostPopularProductByIndex(0);
+            Page.Product.ClickAddToCart();
+            Console.ReadLine();
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
+using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Pages
 {
@@ -17,6 +19,18 @@ namespace SeleniumProject.Pages
         [FindsBy(How = How.CssSelector, Using = ".campaign-price")]
         [CacheLookup]
         private IWebElement _campaingPrice;
+        
+        [FindsBy(How = How.CssSelector, Using = "[name=add_cart_product]")]
+        [CacheLookup]
+        private IWebElement _addToCart;
+        
+        [FindsBy(How = How.CssSelector, Using = "[name*=Size]")]
+        [CacheLookup]
+        private IWebElement _selectSize;
+        
+        [FindsBy(How = How.CssSelector, Using = "span.quantity")]
+        [CacheLookup]
+        private IWebElement _quantityInCart;
         
         public Dictionary<string, object> GetProductData()
         {
@@ -64,5 +78,19 @@ namespace SeleniumProject.Pages
             var priceData = GetCampaignPriceData();
             return Helpers.Check.CheckFontBold(priceData["font-weight"]);
         }
+
+        public void ClickAddToCart()
+        {
+            if (BaseAsserts.IsElementPresent(By.CssSelector("[name*=Size]")))
+                SelectProductSize("Medium");
+            BaseSelenium.Click(_addToCart);
+            BaseSelenium.WaitStalenessOf(_quantityInCart);
+        }
+
+        public void SelectProductSize(string size)
+        {
+            BaseSelenium.SelectByValue(_selectSize, size);
+        }
+        
     }
 }

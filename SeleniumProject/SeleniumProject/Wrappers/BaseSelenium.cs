@@ -18,12 +18,6 @@ namespace SeleniumProject.Wrappers
         {
             WebDriver.Wait.Until(ExpectedConditions.ElementToBeClickable(element)).Click();
         }
-        
-        public static void DropDownListSelect(IWebElement element, string value)
-        {
-            var list = new SelectElement(element);
-            list.SelectByValue(value);
-        }
 
         public static void SelectByText(IWebElement element, string text)
         {
@@ -40,10 +34,20 @@ namespace SeleniumProject.Wrappers
                 if (option.Text == text) Click(option);
             }
         }
+        
+        public static void SelectByValue(IWebElement element, string value)
+        {
+            new SelectElement(element).SelectByValue(value);
+        }
 
         public static void RefreshPage()
         {
             WebDriver.Driver.Navigate().Refresh();
+        }
+        
+        public static void BackToPage()
+        {
+            WebDriver.Driver.Navigate().Back();
         }
 
         public static IWebElement GetTableRowOfIndex(int index)
@@ -60,8 +64,13 @@ namespace SeleniumProject.Wrappers
         {
             return row.FindElements(By.CssSelector("td"))[index];
         }
-        
-        
+
+        public static void WaitStalenessOf(IWebElement element)
+        {
+            WebDriver.Wait.Until(ExpectedConditions.StalenessOf(element));
+        }
+
+
         // JS Exp
         public static void ScrollPage(int x, int y)
         {
