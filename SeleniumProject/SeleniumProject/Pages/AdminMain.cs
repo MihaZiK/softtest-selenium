@@ -51,7 +51,7 @@ namespace SeleniumProject.Pages.Admin
                 BaseSelenium.Click(menuItem);
                 
                 // Если есть подменю, то проходим и по нему
-                if (BaseAsserts.AreElementsPresent(By.CssSelector("ul.docs li")))
+                if (BaseAsserts.IsElementPresent(By.CssSelector("ul.docs li")))
                 {
                     for (var j = 0; j < WebDriver.Driver.FindElements(By.CssSelector("ul.docs li")).Count; j++)
                     {

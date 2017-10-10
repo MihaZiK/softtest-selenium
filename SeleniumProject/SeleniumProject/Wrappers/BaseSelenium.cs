@@ -65,12 +65,6 @@ namespace SeleniumProject.Wrappers
             return row.FindElements(By.CssSelector("td"))[index];
         }
 
-        public static void WaitStalenessOf(IWebElement element)
-        {
-            WebDriver.Wait.Until(ExpectedConditions.StalenessOf(element));
-        }
-
-
         // JS Exp
         public static void ScrollPage(int x, int y)
         {

@@ -10,7 +10,7 @@ namespace SeleniumProject.Tests
         [SetUp]
         public new void SetupTest()
         {
-            WebDriver.LoadApplication("http://localhost/litecart/");
+            WebDriver.LoadApplication("http://localhost/litecart/public_html");
         }
         
         [Test]
@@ -30,7 +30,9 @@ namespace SeleniumProject.Tests
             BaseSelenium.BackToPage();
             Page.Main.ClickMostPopularProductByIndex(0);
             Page.Product.ClickAddToCart();
-            Console.ReadLine();
+            Page.Product.CheckoutCart();
+            Page.Cart.RemoveAllProducts();
+            Assert.IsTrue(Page.Cart.CheckEmptyCart());
         }
     }
 }

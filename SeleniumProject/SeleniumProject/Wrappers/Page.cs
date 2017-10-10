@@ -61,6 +61,11 @@ namespace SeleniumProject.Wrappers
             get { return GetPage<AddNewProduct>(); }
         }
         
+        public static Cart Cart
+        {
+            get { return GetPage<Cart>(); }
+        }
+        
         private static T GetPage<T>() where T : new()
         {
             var page = new T();

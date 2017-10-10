@@ -60,6 +60,7 @@
     <Compile Include="Pages\AdminMain.cs" />
     <Compile Include="Pages\AdminCountries.cs" />
     <Compile Include="Pages\AdminCatalog.cs" />
+    <Compile Include="Pages\Cart.cs" />
     <Compile Include="Pages\CreateAccount.cs" />
     <Compile Include="Pages\Main.cs" />
     <Compile Include="Pages\Product.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Wrappers\BaseAsserts.cs" />
     <Compile Include="Wrappers\BaseSelenium.cs" />
     <Compile Include="Wrappers\BaseTestSuite.cs" />
+    <Compile Include="Wrappers\BaseWaitings.cs" />
     <Compile Include="Wrappers\Page.cs" />
     <Compile Include="Wrappers\WebDriver.cs" />
   </ItemGroup>

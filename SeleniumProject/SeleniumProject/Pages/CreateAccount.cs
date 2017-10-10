@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.Extensions;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using OpenQA.Selenium.Support.UI;
 using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Pages

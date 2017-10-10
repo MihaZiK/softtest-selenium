@@ -12,22 +12,150 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Parse.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Parse.cs">
+      <file leaf-file-name="Main.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/Main.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="66" column="42" lean-forward="false" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+            <state relative-caret-position="-432">
+              <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding>
-                <marker date="1506997280258" expanded="false" signature="6:111" ph="..." />
-                <marker date="1506997280258" expanded="true" signature="146:2933" ph="{...}" />
-                <marker date="1506997280258" expanded="true" signature="171:2931" ph="{...}" />
-                <marker date="1506997280258" expanded="true" signature="229:1253" ph="{...}" />
-                <marker date="1506997280258" expanded="true" signature="386:1213" ph="{...}" />
-                <marker date="1506997280258" expanded="true" signature="1331:1773" ph="{...}" />
-                <marker date="1506997280258" expanded="true" signature="1860:2302" ph="{...}" />
-                <marker date="1506997280258" expanded="true" signature="2394:2500" ph="{...}" />
-                <marker date="1506997280258" expanded="true" signature="2593:2703" ph="{...}" />
-                <marker date="1506997280258" expanded="true" signature="2761:2925" ph="{...}" />
+                <marker date="1507606641818" expanded="false" signature="6:150" ph="..." />
+                <marker date="1507606641818" expanded="true" signature="183:4617" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="207:4615" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="1417:1546" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="1606:1685" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="1748:1829" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="1870:1937" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="1972:2033" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="2086:2156" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="2215:2291" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="2333:2393" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="2451:2563" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="2636:3038" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="2716:2999" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="3136:3821" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="3217:3781" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="3928:4609" ph="{...}" />
+                <marker date="1507606641818" expanded="true" signature="4009:4569" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseWaitings.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseWaitings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="71" lean-forward="false" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+              <folding>
+                <marker date="1507624226553" expanded="true" signature="6:56" ph="..." />
+                <marker date="1507624226553" expanded="true" signature="92:497" ph="{...}" />
+                <marker date="1507624226553" expanded="true" signature="124:495" ph="{...}" />
+                <marker date="1507624226553" expanded="true" signature="207:321" ph="{...}" />
+                <marker date="1507624226553" expanded="true" signature="394:489" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductTests.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SeleniumProject/Tests/ProductTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+              <folding>
+                <marker date="1507625372697" expanded="true" signature="6:68" ph="..." />
+                <marker date="1507625372697" expanded="true" signature="101:1079" ph="{...}" />
+                <marker date="1507625372697" expanded="true" signature="167:1077" ph="{...}" />
+                <marker date="1507625372697" expanded="true" signature="225:325" ph="{...}" />
+                <marker date="1507625372697" expanded="true" signature="396:477" ph="{...}" />
+                <marker date="1507625372697" expanded="true" signature="534:1071" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cart.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/Cart.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding>
+                <marker date="1507625193267" expanded="true" signature="6:207" ph="..." />
+                <marker date="1507625193267" expanded="true" signature="240:927" ph="{...}" />
+                <marker date="1507625193267" expanded="true" signature="264:925" ph="{...}" />
+                <marker date="1507625193267" expanded="true" signature="450:790" ph="{...}" />
+                <marker date="1507625193267" expanded="true" signature="552:780" ph="{...}" />
+                <marker date="1507625193267" expanded="true" signature="828:919" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/Page.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+              <folding>
+                <marker date="1507620130991" expanded="false" signature="6:106" ph="..." />
+                <marker date="1507620130991" expanded="true" signature="142:1833" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="173:1831" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="223:293" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="336:405" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="438:502" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="559:635" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="686:759" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="812:886" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="943:1019" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="1058:1125" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="1184:1257" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="1314:1386" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="1445:1518" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="1559:1623" ph="{...}" />
+                <marker date="1507620130991" expanded="true" signature="1686:1825" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Generator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Generator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+              <folding>
+                <marker date="1507547896703" expanded="true" signature="48:506" ph="{...}" />
+                <marker date="1507547896703" expanded="true" signature="77:504" ph="{...}" />
+                <marker date="1507547896703" expanded="true" signature="129:227" ph="{...}" />
+                <marker date="1507547896703" expanded="true" signature="282:369" ph="{...}" />
+                <marker date="1507547896703" expanded="true" signature="422:498" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateAccount.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/CreateAccount.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <marker date="1507620131010" expanded="true" signature="6:97" ph="..." />
+                <marker date="1507620131010" expanded="true" signature="130:4055" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="163:4053" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="1883:1956" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2011:2083" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2137:2208" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2255:2327" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2378:2446" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2497:2575" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2620:2698" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2751:2821" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2866:2936" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="2987:3063" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="3129:3214" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="3249:3310" ph="{...}" />
+                <marker date="1507620131010" expanded="true" signature="3614:4038" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,164 +164,49 @@
       <file leaf-file-name="BaseSelenium.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseSelenium.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+            <state relative-caret-position="320">
+              <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding>
-                <marker date="1507601050857" expanded="false" signature="6:104" ph="..." />
-                <marker date="1507601050857" expanded="true" signature="140:2531" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="172:2529" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="256:534" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="589:701" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="776:855" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="944:1230" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="1136:1220" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="1315:1396" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="1438:1509" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="1558:1626" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="1691:1803" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="1860:1971" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="2059:2145" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="2210:2305" ph="{...}" />
-                <marker date="1507601050857" expanded="true" signature="2377:2505" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="6:104" ph="..." />
+                <marker date="1507624226579" expanded="true" signature="140:2370" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="172:2368" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="256:534" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="589:701" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="776:855" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="944:1230" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="1136:1220" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="1315:1396" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="1438:1509" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="1558:1626" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="1691:1803" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="1860:1971" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="2059:2145" ph="{...}" />
+                <marker date="1507624226579" expanded="true" signature="2216:2344" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseAsserts.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseAsserts.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <marker date="1507600141578" expanded="false" signature="6:56" ph="..." />
-                <marker date="1507600141578" expanded="true" signature="92:430" ph="{...}" />
-                <marker date="1507600141578" expanded="true" signature="123:428" ph="{...}" />
-                <marker date="1507600141578" expanded="true" signature="185:274" ph="{...}" />
-                <marker date="1507600141578" expanded="true" signature="333:422" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTests.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumProject/Tests/ProductTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-              <folding>
-                <marker date="1507601050888" expanded="true" signature="6:68" ph="..." />
-                <marker date="1507601050888" expanded="true" signature="101:961" ph="{...}" />
-                <marker date="1507601050888" expanded="true" signature="167:959" ph="{...}" />
-                <marker date="1507601050888" expanded="true" signature="225:314" ph="{...}" />
-                <marker date="1507601050888" expanded="true" signature="385:466" ph="{...}" />
-                <marker date="1507601050888" expanded="true" signature="523:953" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminMain.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminMain.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
-              <folding>
-                <marker date="1507600190287" expanded="false" signature="6:97" ph="..." />
-                <marker date="1507600190287" expanded="true" signature="136:2334" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="165:2332" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="805:872" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="910:980" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="1025:1094" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="1138:1206" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="1249:2326" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="1398:2291" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="1701:2170" ph="{...}" />
-                <marker date="1507600190287" expanded="true" signature="1831:2152" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTestSuite.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseTestSuite.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding>
-                <marker date="1507601394296" expanded="true" signature="58:341" ph="{...}" />
-                <marker date="1507601394296" expanded="true" signature="91:339" ph="{...}" />
-                <marker date="1507601394296" expanded="true" signature="146:212" ph="{...}" />
-                <marker date="1507601394296" expanded="true" signature="276:333" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Product.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/Product.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="85" column="43" lean-forward="false" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+            <state relative-caret-position="268">
+              <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
               <folding>
-                <marker date="1507601818130" expanded="true" signature="6:155" ph="..." />
-                <marker date="1507601818130" expanded="true" signature="188:3166" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="215:3164" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="1112:1402" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="1192:1363" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="1468:1867" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="1549:1827" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="1942:2337" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="2023:2297" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="2381:2538" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="2588:2734" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="2772:3018" ph="{...}" />
-                <marker date="1507601818130" expanded="true" signature="3070:3149" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/Main.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="55" column="58" lean-forward="false" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
-              <folding>
-                <marker date="1507598480803" expanded="false" signature="6:150" ph="..." />
-                <marker date="1507598480803" expanded="true" signature="183:4617" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="207:4615" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="1417:1546" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="1606:1685" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="1748:1829" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="1870:1937" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="1972:2033" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="2086:2156" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="2215:2291" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="2333:2393" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="2451:2563" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="2636:3038" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="2716:2999" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="3136:3821" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="3217:3781" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="3928:4609" ph="{...}" />
-                <marker date="1507598480803" expanded="true" signature="4009:4569" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminCatalog.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminCatalog.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-              <folding>
-                <marker date="1507360294243" expanded="false" signature="6:97" ph="..." />
-                <marker date="1507360294243" expanded="true" signature="130:558" ph="{...}" />
-                <marker date="1507360294243" expanded="true" signature="162:556" ph="{...}" />
-                <marker date="1507360294243" expanded="true" signature="365:433" ph="{...}" />
-                <marker date="1507360294243" expanded="true" signature="475:550" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="6:203" ph="..." />
+                <marker date="1507625414648" expanded="true" signature="236:3551" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="263:3549" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="1309:1599" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="1389:1560" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="1665:2064" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="1746:2024" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="2139:2534" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="2220:2494" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="2578:2735" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="2785:2931" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="2969:3300" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="3336:3403" ph="{...}" />
+                <marker date="1507625414648" expanded="true" signature="3455:3534" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -207,33 +220,37 @@
     </findStrings>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/Product.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Parse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Check.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/EqualProductChrome.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/EqualProductIE.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/EqualProductFirefox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminEditGeoZone.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminGeoZones.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminCountries.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/Main.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminLogin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminEditCountry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminMain.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/CreateAccount.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/AdminTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Generator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/ProductTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/UsersTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Compare.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Check.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Parse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseSelenium.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseTestSuite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseAsserts.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminCatalog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/WebDriver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/ProductAdminTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/Page.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/ProductAdminTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminCatalog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AddNewProduct .cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3412908-98D9-46B3-8A38-C827CEDDD7F8/3d/05f6118c/ExpectedConditions.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/Cart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3412908-98D9-46B3-8A38-C827CEDDD7F8/67/d102f8c1/SelectElement.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseWaitings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/EqualProductChrome.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminEditGeoZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/EqualProductFirefox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/EqualProductIE.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminGeoZones.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminCountries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Tests/UsersTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminLogin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/CreateAccount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminEditCountry.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -262,20 +279,24 @@
         <option value="$PROJECT_DIR$/SeleniumProject/Tests/EqualProductIE.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Tests/AdminTests.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Tests/Users.cs" />
-        <option value="$PROJECT_DIR$/SeleniumProject/Pages/CreateAccount.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Tests/UsersTests.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Pages/Catalog.cs" />
-        <option value="$PROJECT_DIR$/SeleniumProject/Wrappers/Page.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Helpers/Generator.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Pages/AddNewProduct .cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Pages/AdminCatalog.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Tests/ProductAdminTests.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Pages/Main.cs" />
+        <option value="$PROJECT_DIR$/SeleniumProject/Wrappers/BaseTestSuite.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3412908-98D9-46B3-8A38-C827CEDDD7F8/3d/05f6118c/ExpectedConditions.cs" />
+        <option value="$PROJECT_DIR$/SeleniumProject/Wrappers/Page.cs" />
+        <option value="$PROJECT_DIR$/SeleniumProject/Pages/CreateAccount.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Wrappers/BaseAsserts.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Pages/AdminMain.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3412908-98D9-46B3-8A38-C827CEDDD7F8/67/d102f8c1/SelectElement.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Wrappers/BaseSelenium.cs" />
+        <option value="$PROJECT_DIR$/SeleniumProject/Wrappers/BaseWaitings.cs" />
+        <option value="$PROJECT_DIR$/SeleniumProject/Pages/Cart.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Tests/ProductTests.cs" />
-        <option value="$PROJECT_DIR$/SeleniumProject/Wrappers/BaseTestSuite.cs" />
         <option value="$PROJECT_DIR$/SeleniumProject/Pages/Product.cs" />
       </list>
     </option>
@@ -289,8 +310,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1924" />
-    <option name="height" value="1056" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -307,7 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -364,6 +384,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,6 +501,7 @@
     <configuration />
     <configuration />
     <configuration />
+    <configuration />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -514,7 +536,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114028000" />
+    <option name="totallyTimeSpent" value="125252000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,30 +548,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34061137" sideWeight="0.50535715" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34061137" sideWeight="0.49464285" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32703003" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20892857" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32751092" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3527559" sideWeight="0.50292826" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34038055" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32703003" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2085954" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266385" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,39 +600,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseTestSuite.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/Page.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminMain.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminLogin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseSelenium.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -769,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Check.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumProject/Tests/EqualProductFirefox.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -790,38 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Tests/UsersTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/Page.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Generator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumProject/Tests/EqualProductIE.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/CreateAccount.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -841,13 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <marker date="1507361835783" expanded="false" signature="6:54" ph="..." />
-            <marker date="1507361835783" expanded="true" signature="87:1795" ph="{...}" />
-            <marker date="1507361835783" expanded="true" signature="158:1793" ph="{...}" />
-            <marker date="1507361835783" expanded="true" signature="216:311" ph="{...}" />
-            <marker date="1507361835783" expanded="true" signature="364:1787" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,70 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
           <caret line="66" column="42" lean-forward="false" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-          <folding>
-            <marker date="1506997280258" expanded="false" signature="6:111" ph="..." />
-            <marker date="1506997280258" expanded="true" signature="146:2933" ph="{...}" />
-            <marker date="1506997280258" expanded="true" signature="171:2931" ph="{...}" />
-            <marker date="1506997280258" expanded="true" signature="229:1253" ph="{...}" />
-            <marker date="1506997280258" expanded="true" signature="386:1213" ph="{...}" />
-            <marker date="1506997280258" expanded="true" signature="1331:1773" ph="{...}" />
-            <marker date="1506997280258" expanded="true" signature="1860:2302" ph="{...}" />
-            <marker date="1506997280258" expanded="true" signature="2394:2500" ph="{...}" />
-            <marker date="1506997280258" expanded="true" signature="2593:2703" ph="{...}" />
-            <marker date="1506997280258" expanded="true" signature="2761:2925" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseSelenium.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
-          <folding>
-            <marker date="1507601050857" expanded="false" signature="6:104" ph="..." />
-            <marker date="1507601050857" expanded="true" signature="140:2531" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="172:2529" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="256:534" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="589:701" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="776:855" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="944:1230" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="1136:1220" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="1315:1396" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="1438:1509" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="1558:1626" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="1691:1803" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="1860:1971" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="2059:2145" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="2210:2305" ph="{...}" />
-            <marker date="1507601050857" expanded="true" signature="2377:2505" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/Main.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="58" lean-forward="false" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
-          <folding>
-            <marker date="1507598480803" expanded="false" signature="6:150" ph="..." />
-            <marker date="1507598480803" expanded="true" signature="183:4617" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="207:4615" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="1417:1546" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="1606:1685" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="1748:1829" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="1870:1937" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="1972:2033" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="2086:2156" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="2215:2291" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="2333:2393" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="2451:2563" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="2636:3038" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="2716:2999" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="3136:3821" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="3217:3781" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="3928:4609" ph="{...}" />
-            <marker date="1507598480803" expanded="true" signature="4009:4569" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -926,33 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <marker date="1507360294243" expanded="false" signature="6:97" ph="..." />
-            <marker date="1507360294243" expanded="true" signature="130:558" ph="{...}" />
-            <marker date="1507360294243" expanded="true" signature="162:556" ph="{...}" />
-            <marker date="1507360294243" expanded="true" signature="365:433" ph="{...}" />
-            <marker date="1507360294243" expanded="true" signature="475:550" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminMain.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
-          <folding>
-            <marker date="1507600190287" expanded="false" signature="6:97" ph="..." />
-            <marker date="1507600190287" expanded="true" signature="136:2334" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="165:2332" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="805:872" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="910:980" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="1025:1094" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="1138:1206" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="1249:2326" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="1398:2291" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="1701:2170" ph="{...}" />
-            <marker date="1507600190287" expanded="true" signature="1831:2152" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,62 +835,384 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Tests/UsersTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <marker date="1507601394296" expanded="true" signature="58:341" ph="{...}" />
-            <marker date="1507601394296" expanded="true" signature="91:339" ph="{...}" />
-            <marker date="1507601394296" expanded="true" signature="146:212" ph="{...}" />
-            <marker date="1507601394296" expanded="true" signature="276:333" ph="{...}" />
+            <marker date="1507286788752" expanded="true" signature="6:54" ph="..." />
+            <marker date="1507286788752" expanded="true" signature="87:1006" ph="{...}" />
+            <marker date="1507286788752" expanded="true" signature="146:1004" ph="{...}" />
+            <marker date="1507286788752" expanded="true" signature="204:305" ph="{...}" />
+            <marker date="1507286788752" expanded="true" signature="369:998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3412908-98D9-46B3-8A38-C827CEDDD7F8/3d/05f6118c/ExpectedConditions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="422" column="52" lean-forward="false" selection-start-line="422" selection-start-column="41" selection-end-line="422" selection-end-column="52" />
+          <folding>
+            <marker date="1507609343803" expanded="true" signature="0:353" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1507609343803" expanded="false" signature="361:463" ph="..." />
+            <marker date="1507609343803" expanded="true" signature="501:20953" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="506:884" ph="/// Supplies a set of common conditions that can be waited for using &lt;see cref=&quot;T:OpenQA.Selenium.Support.UI.WebD ... " />
+            <marker date="1507609343803" expanded="true" signature="925:20951" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="934:1098" ph="/// Prevents a default instance of the &lt;see cref=&quot;T:OpenQA.Selenium.Support.UI.ExpectedConditions&quot; /&gt; class from  ... " />
+            <marker date="1507609343803" expanded="true" signature="1131:1143" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="1149:1418" ph="///An expectation for checking the title of a page. ... " />
+            <marker date="1507609343803" expanded="true" signature="1481:1566" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="1572:1882" ph="/// An expectation for checking that the title of a page contains a case-sensitive substring. ... " />
+            <marker date="1507609343803" expanded="true" signature="1951:2043" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="2049:2350" ph="/// An expectation for the URL of the current page to be a specific URL. ... " />
+            <marker date="1507609343803" expanded="true" signature="2411:2535" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="2541:2860" ph="/// An expectation for the URL of the current page to be a specific URL. ... " />
+            <marker date="1507609343803" expanded="true" signature="2930:3061" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="3067:3402" ph="/// An expectation for the URL of the current page to be a specific URL. ... " />
+            <marker date="1507609343803" expanded="true" signature="3468:3599" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="3605:3962" ph="/// An expectation for checking that an element is present on the DOM of a ... " />
+            <marker date="1507609343803" expanded="true" signature="4036:4134" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="4140:4581" ph="/// An expectation for checking that an element is present on the DOM of a page ... " />
+            <marker date="1507609343803" expanded="true" signature="4658:4966" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="4720:4958" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="4740:4843" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="4893:4950" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="4972:5441" ph="/// An expectation for checking that all elements present on the web page that ... " />
+            <marker date="1507609343803" expanded="true" signature="5554:6159" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="5636:6151" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="5656:6016" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="6066:6143" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="6165:6617" ph="/// An expectation for checking that all elements present on the web page that ... " />
+            <marker date="1507609343803" expanded="true" signature="6760:7282" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="6842:7274" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="6862:7139" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="7189:7266" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="7288:7610" ph="/// An expectation for checking that all elements present on the web page that ... " />
+            <marker date="1507609343803" expanded="true" signature="7721:8167" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="7803:8159" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="7823:8024" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="8074:8151" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="8173:8548" ph="/// An expectation for checking if the given text is present in the specified element. ... " />
+            <marker date="1507609343803" expanded="true" signature="8648:8899" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="8703:8891" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="8723:8789" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="8839:8883" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="8905:9324" ph="/// An expectation for checking if the given text is present in the element that matches the given locator. ... " />
+            <marker date="1507609343803" expanded="true" signature="9422:9693" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="9477:9685" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="9497:9583" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="9633:9677" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="9699:10091" ph="/// An expectation for checking if the given text is present in the specified elements value attribute. ... " />
+            <marker date="1507609343803" expanded="true" signature="10196:10563" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="10251:10555" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="10271:10453" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="10503:10547" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="10569:10984" ph="/// An expectation for checking if the given text is present in the specified elements value attribute. ... " />
+            <marker date="1507609343803" expanded="true" signature="11080:11467" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="11135:11459" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="11155:11357" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="11407:11451" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="11473:11837" ph="/// An expectation for checking whether the given frame is available to switch ... " />
+            <marker date="1507609343803" expanded="true" signature="11937:12206" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="11998:12198" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="12018:12094" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="12134:12190" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="12212:12557" ph="/// An expectation for checking whether the given frame is available to switch ... " />
+            <marker date="1507609343803" expanded="true" signature="12648:12973" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="12709:12965" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="12729:12861" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="12901:12957" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="12979:13307" ph="/// An expectation for checking that an element is either invisible or not present on the DOM. ... " />
+            <marker date="1507609343803" expanded="true" signature="13389:13735" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="13444:13727" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="13464:13541" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="13583:13626" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="13676:13719" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="13741:14134" ph="/// An expectation for checking that an element with text is either invisible or not present on the DOM. ... " />
+            <marker date="1507609343803" expanded="true" signature="14230:14684" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="14285:14676" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="14305:14490" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="14532:14575" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="14625:14668" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="14690:15036" ph="/// An expectation for checking an element is visible and enabled such that you ... " />
+            <marker date="1507609343803" expanded="true" signature="15117:15565" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="15179:15557" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="15298:15442" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="15492:15549" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="15571:15880" ph="/// An expectation for checking an element is visible and enabled such that you ... " />
+            <marker date="1507609343803" expanded="true" signature="15970:16331" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="16032:16323" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="16052:16208" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="16258:16315" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="16337:16617" ph="/// Wait until an element is no longer attached to the DOM. ... " />
+            <marker date="1507609343803" expanded="true" signature="16691:16949" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="16746:16941" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="16766:16840" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="16890:16933" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="16955:17224" ph="/// An expectation for checking if the given element is selected. ... " />
+            <marker date="1507609343803" expanded="true" signature="17306:17392" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="17398:17731" ph="/// An expectation for checking if the given element is selected. ... " />
+            <marker date="1507609343803" expanded="true" signature="17828:17920" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="17926:18275" ph="/// An expectation for checking if the given element is in correct state. ... " />
+            <marker date="1507609343803" expanded="true" signature="18378:18470" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="18476:18770" ph="/// An expectation for checking if the given element is selected. ... " />
+            <marker date="1507609343803" expanded="true" signature="18843:18929" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="18935:19309" ph="/// An expectation for checking if the given element is in correct state. ... " />
+            <marker date="1507609343803" expanded="true" signature="19403:19675" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="19458:19667" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="19478:19565" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="19615:19659" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="19681:19784" ph="///An expectation for checking the AlterIsPresent ... " />
+            <marker date="1507609343803" expanded="true" signature="19844:20096" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="19901:20088" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="19921:19985" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="20028:20080" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="20102:20438" ph="///An expectation for checking the Alert State ... " />
+            <marker date="1507609343803" expanded="true" signature="20502:20778" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="20557:20770" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="20577:20666" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="20709:20762" ph="{...}" />
+            <marker date="1507609343803" expanded="true" signature="20848:20947" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseAsserts.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding>
-            <marker date="1507600141578" expanded="false" signature="6:56" ph="..." />
-            <marker date="1507600141578" expanded="true" signature="92:430" ph="{...}" />
-            <marker date="1507600141578" expanded="true" signature="123:428" ph="{...}" />
-            <marker date="1507600141578" expanded="true" signature="185:274" ph="{...}" />
-            <marker date="1507600141578" expanded="true" signature="333:422" ph="{...}" />
+            <marker date="1507620284484" expanded="true" signature="58:248" ph="{...}" />
+            <marker date="1507620284484" expanded="true" signature="89:246" ph="{...}" />
+            <marker date="1507620284484" expanded="true" signature="151:240" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumProject/Tests/ProductTests.cs">
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Check.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="368">
+          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
           <folding>
-            <marker date="1507601050888" expanded="true" signature="6:68" ph="..." />
-            <marker date="1507601050888" expanded="true" signature="101:961" ph="{...}" />
-            <marker date="1507601050888" expanded="true" signature="167:959" ph="{...}" />
-            <marker date="1507601050888" expanded="true" signature="225:314" ph="{...}" />
-            <marker date="1507601050888" expanded="true" signature="385:466" ph="{...}" />
-            <marker date="1507601050888" expanded="true" signature="523:953" ph="{...}" />
+            <marker date="1507029441285" expanded="true" signature="66:926" ph="{...}" />
+            <marker date="1507029441285" expanded="true" signature="91:924" ph="{...}" />
+            <marker date="1507029441285" expanded="true" signature="164:239" ph="{...}" />
+            <marker date="1507029441285" expanded="true" signature="308:918" ph="{...}" />
+            <marker date="1507029441285" expanded="true" signature="409:882" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/AdminMain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+          <folding>
+            <marker date="1507620410991" expanded="false" signature="6:97" ph="..." />
+            <marker date="1507620410991" expanded="true" signature="136:2332" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="165:2330" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="805:872" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="910:980" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="1025:1094" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="1138:1206" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="1249:2324" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="1398:2289" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="1699:2168" ph="{...}" />
+            <marker date="1507620410991" expanded="true" signature="1829:2150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/CreateAccount.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <marker date="1507620131010" expanded="true" signature="6:97" ph="..." />
+            <marker date="1507620131010" expanded="true" signature="130:4055" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="163:4053" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="1883:1956" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2011:2083" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2137:2208" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2255:2327" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2378:2446" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2497:2575" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2620:2698" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2751:2821" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2866:2936" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="2987:3063" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="3129:3214" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="3249:3310" ph="{...}" />
+            <marker date="1507620131010" expanded="true" signature="3614:4038" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3412908-98D9-46B3-8A38-C827CEDDD7F8/67/d102f8c1/SelectElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="85" column="11" lean-forward="false" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Helpers/Generator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding>
+            <marker date="1507547896703" expanded="true" signature="48:506" ph="{...}" />
+            <marker date="1507547896703" expanded="true" signature="77:504" ph="{...}" />
+            <marker date="1507547896703" expanded="true" signature="129:227" ph="{...}" />
+            <marker date="1507547896703" expanded="true" signature="282:369" ph="{...}" />
+            <marker date="1507547896703" expanded="true" signature="422:498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/Page.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+          <folding>
+            <marker date="1507620130991" expanded="false" signature="6:106" ph="..." />
+            <marker date="1507620130991" expanded="true" signature="142:1833" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="173:1831" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="223:293" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="336:405" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="438:502" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="559:635" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="686:759" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="812:886" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="943:1019" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="1058:1125" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="1184:1257" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="1314:1386" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="1445:1518" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="1559:1623" ph="{...}" />
+            <marker date="1507620130991" expanded="true" signature="1686:1825" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseSelenium.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <marker date="1507624226579" expanded="true" signature="6:104" ph="..." />
+            <marker date="1507624226579" expanded="true" signature="140:2370" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="172:2368" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="256:534" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="589:701" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="776:855" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="944:1230" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="1136:1220" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="1315:1396" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="1438:1509" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="1558:1626" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="1691:1803" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="1860:1971" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="2059:2145" ph="{...}" />
+            <marker date="1507624226579" expanded="true" signature="2216:2344" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/Cart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <marker date="1507625193267" expanded="true" signature="6:207" ph="..." />
+            <marker date="1507625193267" expanded="true" signature="240:927" ph="{...}" />
+            <marker date="1507625193267" expanded="true" signature="264:925" ph="{...}" />
+            <marker date="1507625193267" expanded="true" signature="450:790" ph="{...}" />
+            <marker date="1507625193267" expanded="true" signature="552:780" ph="{...}" />
+            <marker date="1507625193267" expanded="true" signature="828:919" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/Product.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="85" column="43" lean-forward="false" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+        <state relative-caret-position="268">
+          <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
           <folding>
-            <marker date="1507601818130" expanded="true" signature="6:155" ph="..." />
-            <marker date="1507601818130" expanded="true" signature="188:3166" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="215:3164" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="1112:1402" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="1192:1363" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="1468:1867" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="1549:1827" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="1942:2337" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="2023:2297" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="2381:2538" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="2588:2734" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="2772:3018" ph="{...}" />
-            <marker date="1507601818130" expanded="true" signature="3070:3149" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="6:203" ph="..." />
+            <marker date="1507625414648" expanded="true" signature="236:3551" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="263:3549" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="1309:1599" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="1389:1560" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="1665:2064" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="1746:2024" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="2139:2534" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="2220:2494" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="2578:2735" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="2785:2931" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="2969:3300" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="3336:3403" ph="{...}" />
+            <marker date="1507625414648" expanded="true" signature="3455:3534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Pages/Main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <marker date="1507606641818" expanded="false" signature="6:150" ph="..." />
+            <marker date="1507606641818" expanded="true" signature="183:4617" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="207:4615" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="1417:1546" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="1606:1685" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="1748:1829" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="1870:1937" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="1972:2033" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="2086:2156" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="2215:2291" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="2333:2393" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="2451:2563" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="2636:3038" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="2716:2999" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="3136:3821" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="3217:3781" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="3928:4609" ph="{...}" />
+            <marker date="1507606641818" expanded="true" signature="4009:4569" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Wrappers/BaseWaitings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="71" lean-forward="false" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <marker date="1507624226553" expanded="true" signature="6:56" ph="..." />
+            <marker date="1507624226553" expanded="true" signature="92:497" ph="{...}" />
+            <marker date="1507624226553" expanded="true" signature="124:495" ph="{...}" />
+            <marker date="1507624226553" expanded="true" signature="207:321" ph="{...}" />
+            <marker date="1507624226553" expanded="true" signature="394:489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumProject/Tests/ProductTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <marker date="1507625372697" expanded="true" signature="6:68" ph="..." />
+            <marker date="1507625372697" expanded="true" signature="101:1079" ph="{...}" />
+            <marker date="1507625372697" expanded="true" signature="167:1077" ph="{...}" />
+            <marker date="1507625372697" expanded="true" signature="225:325" ph="{...}" />
+            <marker date="1507625372697" expanded="true" signature="396:477" ph="{...}" />
+            <marker date="1507625372697" expanded="true" signature="534:1071" ph="{...}" />
           </folding>
         </state>
       </provider>

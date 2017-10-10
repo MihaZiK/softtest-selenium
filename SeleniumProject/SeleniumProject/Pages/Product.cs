@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
+using OpenQA.Selenium.Support.UI;
 using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Pages
@@ -31,6 +33,10 @@ namespace SeleniumProject.Pages
         [FindsBy(How = How.CssSelector, Using = "span.quantity")]
         [CacheLookup]
         private IWebElement _quantityInCart;
+        
+        [FindsBy(How = How.CssSelector, Using = "a.link[href*=checkout]")]
+        [CacheLookup]
+        private IWebElement _checkoutCart;
         
         public Dictionary<string, object> GetProductData()
         {
@@ -81,10 +87,16 @@ namespace SeleniumProject.Pages
 
         public void ClickAddToCart()
         {
+            var count = Convert.ToInt32(_quantityInCart.Text);
             if (BaseAsserts.IsElementPresent(By.CssSelector("[name*=Size]")))
                 SelectProductSize("Medium");
             BaseSelenium.Click(_addToCart);
-            BaseSelenium.WaitStalenessOf(_quantityInCart);
+            BaseWaitings.WaitTextPresent(_quantityInCart, (count+1).ToString());
+        }
+
+        public void CheckoutCart()
+        {
+            BaseSelenium.Click(_checkoutCart);
         }
 
         public void SelectProductSize(string size)
