@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
@@ -64,6 +63,12 @@ namespace SeleniumProject.Wrappers
         {
             return row.FindElements(By.CssSelector("td"))[index];
         }
+
+        public static void SwitchToWindow(string id)
+        {
+            WebDriver.Driver.SwitchTo().Window(id);
+        }
+        
 
         // JS Exp
         public static void ScrollPage(int x, int y)
