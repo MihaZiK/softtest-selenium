@@ -17,6 +17,11 @@ namespace SeleniumProject.Pages
         [FindsBy(How = How.CssSelector, Using = ".dataTable .row")]
         [CacheLookup]
         private IList<IWebElement> _rowsList;
+        
+        [FindsBy(How = How.CssSelector, Using = "[href*=edit_country]")]
+        [CacheLookup]
+        private IWebElement _addCountry;
+        
 
         private int GetIndexCountryName()
         {
@@ -45,6 +50,11 @@ namespace SeleniumProject.Pages
                 .Select(strList => strList[nameIndex].Text).ToList();
 
             return Compare.CompareLists(countriesList);
+        }
+
+        public void ClickAddContry()
+        {
+            BaseSelenium.Click(_addCountry);
         }
 
         public bool CheckZonesAndCountriesOrder()
