@@ -58,5 +58,18 @@ namespace SeleniumProject.Wrappers
             return type.Substring(type.LastIndexOf(".", StringComparison.Ordinal)+1
                 , type.Length - type.LastIndexOf(".", StringComparison.Ordinal)-1);
         }
+
+        public static bool CheckBrowserLog()
+        {
+            return Driver.Manage().Logs.GetLog("browser").Count > 0;
+        }
+
+        public static void PrintBrowserLog()
+        {
+            foreach (var str in Driver.Manage().Logs.GetLog("browser"))
+            {
+                Console.WriteLine(str);
+            }
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using SeleniumProject.Wrappers;
 
 namespace SeleniumProject.Tests
@@ -9,7 +10,7 @@ namespace SeleniumProject.Tests
         [SetUp]
         public new void SetupTest()
         {
-            WebDriver.LoadApplication("http://localhost/litecart/admin/");
+            WebDriver.LoadApplication("http://localhost/litecart/public_html/admin/");
         }
 
         [Test]
@@ -40,6 +41,15 @@ namespace SeleniumProject.Tests
             Page.AddNewProduct.FillPurchasePriceCode();
             Page.AddNewProduct.ClickSave();
             Assert.IsTrue(count + 1 == Page.AdminCatalog.GetCountRowsInTable());
+        }
+
+        [Test]
+        public void TestLogsWhenProductOpen()
+        {
+            Page.AdminLogin.loginAs("admin", "admin");
+            Page.AdminMain.ClickCatalog();
+            Page.AdminCatalog.OpenAllFolders();
+            Assert.IsTrue(Page.AdminCatalog.CheckLogsWhenProductOpen());
         }
     }
 }

@@ -9,7 +9,7 @@ namespace SeleniumProject.Tests
         [SetUp]
         public new void SetupTest()
         {
-            WebDriver.LoadApplication("http://localhost/litecart/public_html/");
+            WebDriver.LoadApplication("http://localhost/litecart/public_html");
         }
         
         [Test]
